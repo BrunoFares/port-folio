@@ -1,0 +1,23 @@
+* {
+    text-align: center;
+}
+
+div.offer {
+    display: flex;
+    border: rgb(241, 241, 241) 1px solid;
+    border-radius: 5em;
+    background-color: rgb(241, 241, 241);
+    margin: 3em 15%;
+    height: 25em;
+    align-items: center;
+}
+
+div.offer div {
+    text-align: left;
+}
+
+img {
+    height: 15em;
+    margin: 0 5em;
+    border-radius: 5em;
+}
