@@ -1,23 +1,81 @@
 * {
     text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    color: white;
 }
 
 div.offer {
     display: flex;
     border: rgb(241, 241, 241) 1px solid;
-    border-radius: 5em;
+    border-radius: 2em;
     background-color: rgb(241, 241, 241);
-    margin: 3em 15%;
-    height: 25em;
+    margin: 2em 10%;
+    height: 10%;
     align-items: center;
+    box-shadow: 13px 12px rgb(104, 28, 0);
 }
 
 div.offer div {
+    padding: 0; 
+    margin: 3em 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+div.offer div * {
     text-align: left;
+    padding: 0;
+    margin: 4%;
+    font-size: 100%;
+    color: black;
 }
 
 img {
-    height: 15em;
-    margin: 0 5em;
+    height: 10em;
+    margin: 0 0 0 8%;
     border-radius: 5em;
+    box-shadow: 10px 8px rgb(104, 28, 0);
+}
+
+div.intro {
+    margin: 8em 10% 20em;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+}
+
+nav {
+    background-color: rgb(95, 41, 0);
+    margin: 0 10rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+header {
+    background-color:rgb(95, 41, 0);
+}
+
+button {
+    background-color: rgb(95, 41, 0);
+    border: 0;
+    color: white;
+    padding: 0.5rem;
+}
+
+button:hover {
+    background-color: rgb(80, 35, 0);
+}
+
+body {
+    background-image: url(../src/images/cozy.png);
+    backdrop-filter: blur(20px);
 }
