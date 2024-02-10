@@ -1,9 +1,15 @@
+@font-face {
+    font-family: 'SanFrancisco';
+    src: url(../src/font/sfuitext-regular-webfont.woff) format('woff'), url(../src/font/sfuitext-regular-webfont.woff2) format('woff2');
+}
+
 * {
     text-align: center;
     font-size: 40px;
     margin: 0;
     padding: 0;
     color: white;
+    font-family: 'SanFrancisco';
 }
 
 div.offer {
@@ -47,6 +53,7 @@ div.intro {
 
 h2 {
     font-size: 1.8rem;
+    margin: 0.5rem;
 }
 
 h3 {
@@ -68,14 +75,14 @@ button {
     background-color: rgb(95, 41, 0);
     border: 0;
     color: white;
-    padding: 0.5rem;
-}
-
-button:hover {
-    background-color: rgb(80, 35, 0);
+    padding: 0.5rem 1.5rem;
 }
 
 body {
     background-image: url(../src/images/cozy.png);
     backdrop-filter: blur(20px);
+}
+
+div.offer:nth-of-type(4n) p {
+    font-size: 0.4em;
 }
