@@ -1,6 +1,12 @@
 import {renderHome} from './home.js';
+import {renderMenu} from './menu.js';
+import {renderAbout} from "./about.js";
+import { emptyContent } from './emptyPage.js';
 
 const button = document.querySelectorAll('header button');
+const div = document.querySelector('div#content');
+
+renderHome();
 
 button.forEach(btn => {
     btn.addEventListener('mouseover', function() {
@@ -26,4 +32,15 @@ button.forEach(btn => {
     })
 })
 
-renderHome();
+button[0].addEventListener('click', () => {
+    emptyContent(div);
+    renderHome();
+});
+button[1].addEventListener('click', () => {
+    emptyContent(div);
+    renderMenu()
+});
+button[2].addEventListener('click', () => {
+    emptyContent(div);
+    renderAbout();
+});
