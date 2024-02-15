@@ -78,9 +78,9 @@ button {
     padding: 0.5rem 1.5rem;
 }
 
-body {
+html body {
     background-image: url(../src/images/cozy.png);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(10px);
 }
 
 div.offer:nth-of-type(4n) p {

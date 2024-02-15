@@ -1,6 +1,7 @@
 import theRock from './images/rock.jpg';
 import cedar from './images/cedar.jpg';
 import thousand from './images/thousandyard.jpg';
+import './style.css';
 
 const origin = document.querySelector("div#content");
 
