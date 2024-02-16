@@ -1,4 +1,4 @@
-import './menuStyle.css';
+import './style/menuStyle.css';
 
 const origin = document.querySelector('div#content');
 
