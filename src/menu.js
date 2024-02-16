@@ -41,6 +41,32 @@ innerDiv2.appendChild(price2);
 menuDiv.appendChild(h42);
 menuDiv.appendChild(innerDiv2);
 
+const innerDiv3 = document.createElement('div');
+const h43 = document.createElement('h4');
+h43.textContent = 'Pizzas';
+const parag3 = document.createElement('p');
+parag3.innerHTML = 'Bucciarratti<br>Margharetti<br>Decoco<br>Prosciutto e Funghi<br>Diavola<br>Forza Milan';
+const price3 = document.createElement('p');
+price3.innerHTML = '$8<br>$8<br>$7<br>$10<br>$6<br>$15';
+
+innerDiv3.appendChild(parag3);
+innerDiv3.appendChild(price3);
+menuDiv.appendChild(h43);
+menuDiv.appendChild(innerDiv3);
+
+const innerDiv4 = document.createElement('div');
+const h44 = document.createElement('h4');
+h44.textContent = 'Crepes';
+const parag4 = document.createElement('p');
+parag4.innerHTML = 'Michel<br>Ribal<br>Chris<br>Kevin<br>Caramelo de Chocolate';
+const price4 = document.createElement('p');
+price4.innerHTML = '$10<br>$10<br>$10<br>$10<br>$17';
+
+innerDiv4.appendChild(parag4);
+innerDiv4.appendChild(price4);
+menuDiv.appendChild(h44);
+menuDiv.appendChild(innerDiv4);
+
 function renderMenu() {
     origin.appendChild(intro);
     origin.appendChild(menuDiv);
