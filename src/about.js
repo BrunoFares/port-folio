@@ -1,4 +1,3 @@
-import './style/aboutStyle.css';
 import thumb from './images/thumb.gif';
 
 const origin = document.querySelector('div#content');
@@ -21,7 +20,7 @@ h4.textContent = 'The team';
 const parag = document.createElement('p');
 parag.innerHTML = 'This is a fake page innit so there\'s nothing much to write here.<br>I did this on my own<br>';
 const link = document.createElement('a');
-link.href = "https://www.github.com/BrunoFares";
+link.href = "https://www.linkedin.com/in/brunofares/";
 link.innerHTML = 'Hire me ;)';
 parag.appendChild(link);
 

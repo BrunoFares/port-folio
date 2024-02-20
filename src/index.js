@@ -2,6 +2,7 @@ import {renderHome} from './home.js';
 import {renderMenu} from './menu.js';
 import {renderAbout} from "./about.js";
 import { emptyContent } from './emptyPage.js';
+import './style.css';
 
 const button = document.querySelectorAll('header button');
 const div = document.querySelector('div#content');

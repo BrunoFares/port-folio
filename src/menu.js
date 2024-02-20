@@ -1,5 +1,3 @@
-import './style/menuStyle.css';
-
 const origin = document.querySelector('div#content');
 
 const intro = document.createElement('div');
