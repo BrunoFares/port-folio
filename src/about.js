@@ -5,9 +5,9 @@ const origin = document.querySelector('div#content');
 const intro = document.createElement('div');
 intro.classList.add('intro');
 const h2 = document.createElement('h2');
-h2.textContent = 'About us';
+h2.textContent = 'Contact Me';
 const introParag = document.createElement('p');
-introParag.textContent = 'Who are we, to be exact?'
+introParag.textContent = 'Reach out to me on any of these platforms.'
 
 intro.appendChild(h2);
 intro.appendChild(introParag);
@@ -16,9 +16,10 @@ const menuDiv = document.createElement('div');
 menuDiv.classList.add('about');
 
 const h4 = document.createElement('h4');
-h4.textContent = 'The team';
-const parag = document.createElement('p');
-parag.innerHTML = 'This is a fake page innit so there\'s nothing much to write here.<br>I did this on my own<br>';
+h4.textContent = 'My Socials';
+const parag = document.createElement('p')
+const ul = document.createElement('ul');
+// continue the list of socials
 const link = document.createElement('a');
 link.href = "https://www.linkedin.com/in/brunofares/";
 link.innerHTML = 'Hire me ;)';
