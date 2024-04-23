@@ -7,9 +7,9 @@ const origin = document.querySelector("div#content");
 const intro = document.createElement('div');
 intro.classList.add('intro');
 const h2 = document.createElement('h2');
-h2.innerHTML = "The Resting, Welcome Home";
+h2.innerHTML = "Hi, I'm Bruno Fares!";
 const introParag = document.createElement('p');
-introParag.innerHTML = "A group of young individuals with an idea, which has now flourished into the comfiest place to relax, study, or chill with your friends!";
+introParag.innerHTML = "I'm a second year computer science student at NDU - Louaize.</br>Welcome to my website!";
 
 intro.appendChild(h2);
 intro.appendChild(introParag);
@@ -17,11 +17,11 @@ intro.appendChild(introParag);
 const h3 = document.createElement('h3');
 h3.innerHTML = "This Week's offers";
 
-const offersTitle = ['The Rock Bite', 'The Cedar Special', 'ȟ̷̶̛̪̳̳̭̲̥͓̼̳̬̼͇̀̉̅ͭͦ̾͋̇͑̔͜ĕ̵̴͇͈̭̤͈̦͙̰̤̖͔͚̬̆ͯ̾̎͑ͫ̀̏̽̍͒͒̆̏ͭ̊̿̈̍̈́̚̚͟͡ͅr̨̡̛̼͕̯͎ͪ͒͑ͬ̈̕̕͠e̺͉͔̫̱̬̓ͣ̐̾ͩ͆ͯ̈̾ͭ i̴̵̘̤͈̞͓̤͖͘͢͠s̢̝̹̘̯̖̠̬̬̲̘̤͎̙̹͈͖̳̱͙̝ͣ̓̈̓͐̐̽̅̏̍͌ͫ̑̆̚̕ ņ̴̧̢̯̝͖͈͉̥̬̺͇̠͉̜̬̄ͪ̽̾ͦ̉̔͆̚͠͞o̶̷̶̴̫͙̟͎̗̲̰͛̀͛ͦ̿͗͘̕ g̙̘ͤ͝o̶̶̡̮̻̙̼͕̼̩͔ͣ͗̋ͣ̈́ͬ̅̉͋̐̕̚̕̕͘͢͜͠͠͝͡i͇̋̔ǹ̷̡̰̩̗̱̝͗ͦ̅g̷̼ͯ̎̎͜ b̴̶̡̧̛̤̺͇͈̥̳͚̩͔̱̳̙͗̋ͩͯͪ͗̒̋̓ͬ͗͊͋̑̈̈̈ͮ̓͒ͤͪ̕̕͢͞͡ͅa̷̷̡͙̺͖̖̳̱̻̬̱͕̤̟̼͔͆̈́ͦ̏̉ͣͩ́͑̋͂͒͒ͣͥ̋ͥ͑̍͢͢͟͜͡ͅc̸̜̍ͤ_̨͎k̷̷̢̡̻̦̯̯̫̱̯̩̹̖͖͎̋̀ͫ̿̉͆̾ͤ͂ͧ͌̏̓̀̓̽̾́̈̆͑̚͢͢͢͡͝<'];
+const offersTitle = ['The Rock Bite', 'The Cedar Special', ''];
 const offersDesc = [
     "The highest cheese mountain you've ever seen! With a mix of chicken, mayonnaise and potato fries, this dish isn't for the faint of heart!",
     "The chef's special! A mix of Lebanese ingredients and foods to bring you the most refined of plates!",
-    "helpmethevoicesaregettinglouder"
+    ""
 ]
 const offersImg = [theRock, cedar, thousand];
 

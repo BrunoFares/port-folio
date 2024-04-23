@@ -17,7 +17,7 @@ button.forEach(btn => {
 
 button.forEach(btn => {
     btn.addEventListener('mouseout', function() {
-        btn.style.backgroundColor = "rgb(95, 41, 0)";
+        btn.style.backgroundColor = "rgb(142, 2, 2)";
     })
 })
 
@@ -29,7 +29,7 @@ button.forEach(btn => {
 
 button.forEach(btn => {
     btn.addEventListener('mouseup', function() {
-        btn.style.backgroundColor = "rgb(95, 41, 0)";
+        btn.style.backgroundColor = "rgb(142, 2, 2)";
     })
 })
 
